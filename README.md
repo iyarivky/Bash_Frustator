@@ -10,6 +10,12 @@ fork from [anubhavanonymous's Bash Frustator](https://github.com/anubhavanonymou
 
 ## Usage
 
+```shell
+$ npm install -g bash-obfuscate
+$ git clone https://github.com/iyarivky/Bash_Frustator
+$ cd Bash_Frustator
+$ python frustator.py
+```
 
 ## Licence
 BSD 3-Clause © Anubhav Kashyap
