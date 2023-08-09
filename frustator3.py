@@ -46,7 +46,7 @@ print(banner2)
 
 def decrypt():
    try:
-       sc = raw_input(ask + W + "Script " + G + ">> " + W)
+       sc = input(ask + W + "Script " + G + ">> " + W)
        f = open(sc,'r')
        filedata = f.read()
        f.close()
@@ -54,7 +54,7 @@ def decrypt():
        newdata = filedata.replace("eval","echo")
 
        print("")
-       out = raw_input(ask + W + "Output" + G + " >> " + W)
+       out = input(ask + W + "Output" + G + " >> " + W)
        f = open(out,'w')
        f.write(newdata)
        f.close()
@@ -75,9 +75,9 @@ def decrypt():
 
 def encrypt():
    try:
-       script = raw_input(ask + W + "Script " + G + ">> " + W)
+       script = input(ask + W + "Script " + G + ">> " + W)
        print("")
-       output = raw_input(ask + W + "Output " + G + ">> " + W)
+       output = input(ask + W + "Output " + G + ">> " + W)
        os.system("bash-obfuscate " + script + " -o " + output )
        print("")
        print (success + "Done..")
@@ -89,7 +89,7 @@ def encrypt():
        print (error + " File Not Found !")
 
 
-fuck = raw_input(Y + " ✯ " + W + "Select Option" + G + " ⋙⋙⋙ ")
+fuck = input(Y + " ✯ " + W + "Select Option" + G + " ⋙⋙⋙ ")
 print("")
 if fuck == "1" or fuck == "01":
    encrypt()
