@@ -1,6 +1,6 @@
 # Bash Frustator
 
-fork from [anubhavanonymous's Bash Frustator](https://github.com/anubhavanonymous/Bash_Frustator) but using Python 3
+fork from [Anubhav Kashyap's Bash Frustator](https://github.com/anubhavanonymous/Bash_Frustator) but using Python 3
 
 <img src="logo.jpg"><br>
 
